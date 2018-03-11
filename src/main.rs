@@ -20,7 +20,6 @@ fn main() {
     // RCC = Reset and Clock Control
     let mut rcc = db.RCC.constrain();
 
-    // Try with different clock configurations
     let mut clocks = rcc.cfgr.freeze(&mut flash.acr);
 
     let mut gpioc = db.GPIOC.split(&mut rcc.apb2);
