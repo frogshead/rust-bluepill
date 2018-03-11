@@ -1,0 +1,9 @@
+[package]
+name = "bluepill"
+version = "0.1.0"
+authors = ["Mikko Viitamäki <mikko.viitamaki+github@gmail.com>"]
+
+[dependencies]
+stm32f103xx = "0.8.0"
+nb = "0.1.1"
+cortex-m = "0.4.3"
